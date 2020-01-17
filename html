@@ -1,0 +1,15 @@
+ 
+* {} /* reset everything to prevent default browser behavior */
+body {} /* use in body to let children inherit */
+transform: translate(-50%, -50%); /* shift -50% of element prop */
+ease-in: faster; ease-out: slower over time
+backface-visibility: hidden; prevent animation shaking
+transform: from top left
+box-shadow: x y blur color
+animation-fill-mode: backwards; apply style before animation start; (we use animation-delay before)
+inline-ids-classes/pseudo clases-element 0-0-0-0 .btn:hover = 2. Last code will be applied if same specificity
+
+- rem is relative to root font-size.
+- em are measured relative to their parent font-size, if used to specify font-size
+- em are measured relative to the current font-size, if used to specify lengths
+- inherit: font-size, font-family
